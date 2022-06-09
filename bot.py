@@ -121,4 +121,4 @@ async def get_user_from(Interaction: Interaction,user:nextcord.Member = SlashOpt
         embed.add_field(name="ข้อมูลผู้ใช้", value="ไม่มีข้อมูล")
     await Interaction.send(embed=embed)
     
-bot.run("xxx")
+bot.run("xx")
